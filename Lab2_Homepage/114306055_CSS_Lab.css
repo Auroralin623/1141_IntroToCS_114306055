@@ -1,0 +1,132 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #333333;                
+    background-color: white;       
+    font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+}
+
+
+h1 {
+    margin: 0;
+    padding: 20px 0 5px 0;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    color: #333333;
+    background-color: #ffcce0;
+    font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+    }   
+
+h3 {
+    margin: 0;
+    padding: 20px 0 15px 0;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color:#333333;                 
+    background-color: #ffcce0;      
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 16px 20px;
+}
+
+
+ul.navbar {
+    list-style-type: none;        
+    margin: 0;
+    padding: 0;
+    background-color: #ffb3c6; 
+    text-align: center;
+    position: relative;
+    top: 0em;
+    left: 0em;
+    width: auto;
+    
+}    
+
+ul.navbar li {
+    display: inline-block;
+    position: relative;
+
+}
+
+
+ul.navbar li a {
+    display: block;
+    padding: 12px 18px;
+    text-decoration: none;
+    color: #333333;
+    font-size: 15px;
+}
+
+
+ul.navbar li a:hover {
+    background-color: #ff9cb8;       
+}
+
+
+.dropdown {
+    position: relative;  
+}
+
+
+.dropdown-content {
+    display: none;       
+    top: 2.5em;
+    left: 0;
+    min-width: 160px;
+    background-color: #ff9cb8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    padding: 0;
+    position: absolute;
+    overflow: visible;
+    text-align: left;
+}
+
+.dropdown-content li {
+    list-style-type: none;
+    padding: 10px 14px;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: left;
+    display: block;
+}
+
+
+.dropdown-content li:hover {
+    background-color: #ff87a5; 
+}
+
+.dropdown:hover .dropdown-content {
+   display: block;
+}
+
+a {
+    color: #d94b8a;
+}
+a:hover {
+    color: #b53870;
+}
+
+
+@media all {
+    body {
+        font-size: 16px;
+    }
+}
+
+@media print {
+    body {
+        background-color: #ffffff;
+        color: #000000;
+    }
+    ul.navbar {
+        display: none;
+    }
+}
