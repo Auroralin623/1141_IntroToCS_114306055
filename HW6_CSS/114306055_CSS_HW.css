@@ -1,0 +1,215 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fceff3; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    color: #5d4a4f;
+}
+.main-container {
+    width: 1000px;
+    background-color: #ffffff;
+    display: flex;
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(221, 138, 159, 0.2);
+    overflow: hidden;
+}
+.about h2{
+	border-bottom: 2px solid #f3c0d0;
+	padding-bottom: 4px;
+	margin-bottom: 10px;
+}
+
+.contact h2{
+	border-bottom: 2px solid #f3c0d0;
+	padding-bottom: 4px;
+	margin-bottom: 10px;
+}
+
+.left-panel {
+    flex-basis: 30%;
+    background-color: #f8dce2; 
+    color: #5d4a4f;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.photo-panel img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 3px solid #f5c4d3;
+}
+
+.text-content {
+    padding: 20px;
+}
+
+
+.name {
+    margin: 0;
+    font-size: 26px;
+    font-weight: bold;
+    color: #5d4a4f;
+}
+
+.title {
+    margin: 4px 0 16px 0;
+    font-size: 14px;
+    color: #91606e;
+}
+
+.text-content h2 {
+    font-size: 16px;
+    margin: 18px 0 6px 0;
+    color: #e26b8f;
+}
+
+
+.text-content p {
+    margin: 0 0 6px 0;
+    font-size: 14px;
+}
+
+
+.text-content a {
+    color: #d25b84;
+    font-weight: bold;
+    text-decoration: none;
+}
+.text-content a:hover {
+    text-decoration: underline;
+}
+
+
+.school-logo img {
+    width: 200px;
+    margin-top: auto;
+}
+
+
+.right-panel {
+    flex-basis: 70%;
+    padding: 24px 32px;
+}
+
+
+.section {
+    margin-bottom: 26px;
+}
+
+.section-title {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #f3c0d0;
+    color: #e26b8f;
+    font-weight: bold;
+}
+
+.edu-item {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.year {
+    width: 110px;
+    font-weight: bold;
+    color: #d1597b;
+}
+
+.description {
+    flex: 1;
+}
+
+
+.tag {
+    display: inline-block;
+    padding: 5px 12px;
+    margin: 6px 6px 0 0;
+    border-radius: 999px;
+    background-color: #f4cfda;  
+    color: #7d515e;
+    font-size: 13px;
+    border: 1px solid #e9b1c2;
+}
+
+.hw-lab-container {
+    display: flex;
+    gap: 18px;
+    margin-top: 10px;
+}
+
+.hw-column,
+.lab-column {
+    flex: 1;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 14px 16px;
+    box-shadow: 0 2px 8px rgba(211, 122, 148, 0.15);
+}
+
+.hw-column h3,
+.lab-column h3 {
+    margin-top: 0;
+    font-size: 15px;
+    color: #d1597b;
+}
+
+.hw-column ul,
+.lab-column ul {
+    padding-left: 18px;
+    margin: 6px 0 0 0;
+    font-size: 14px;
+}
+
+.hw-column a,
+.lab-column a {
+    text-decoration: none;
+    color: #c54872;
+    font-weight: bold;
+}
+
+.hw-column a:hover,
+.lab-column a:hover {
+    text-decoration: underline;
+}
+
+
+.music-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.music-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #5d4a4f;
+}
+
+.music-item img {
+    width: 70px;
+    height: 52px;
+    margin-bottom: 6px;
+}
+
+.song-title {
+    font-size: 13px;
+}
+
+.music-note {
+    margin-top: 12px;
+    font-size: 13px;
+    color: #7d6169;
+}
